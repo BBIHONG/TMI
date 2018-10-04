@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         myBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"버튼이 눌렸어요.",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"버튼이 누름",Toast.LENGTH_SHORT).show();
 
                 Intent myIntent = new Intent(MainActivity.this, myActivity.class);
                 startActivity(myIntent);
